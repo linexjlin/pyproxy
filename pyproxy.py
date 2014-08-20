@@ -10,7 +10,7 @@ import logging
 import tornado.web
 from tornado.options import define, options
 
-define("bind", default="127.0.0.1", help="addrs that debugger bind to")
+define("bind", default="0.0.0.0", help="addrs that debugger bind to")
 define("port", default=8888, help="the port that debugger listen to")
 define("username", default="", help="proxy username")
 define("password", default="", help="proxy password")
